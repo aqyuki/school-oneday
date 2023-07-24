@@ -6,7 +6,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "タイトル",
+  title: "鹿児島高専 e-スポーツクラブ 特設サイト",
   description: "鹿児島高専e-スポーツクラブの活動様子など",
 };
 
