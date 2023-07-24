@@ -11,7 +11,6 @@ export const RightImageArticles = (props: ArticlesPropsType) => {
           width={430}
           height={1046}
           alt={props.alt}
-          layout="responsive"
           priority
         />
         <div>
@@ -33,7 +32,6 @@ export const LeftImageArticles = (props: ArticlesPropsType) => {
           width={430}
           height={1046}
           alt={props.alt}
-          layout="responsive"
         />
         <div>
           <h1 className="text-4xl font-bold">{props.title}</h1>
