@@ -3,7 +3,7 @@ import ArticlesPropsType, { ArticlesContentPropsType } from "../types/articles";
 
 export const RightImageArticles = (props: ArticlesPropsType) => {
   return (
-    <div className="hero bg-base-200 my-1 h-96">
+    <div className="hero my-1 h-96">
       <div className="hero-content flex-col lg:flex-row w-3/5">
         <Image
           src={props.image}
@@ -24,7 +24,7 @@ export const RightImageArticles = (props: ArticlesPropsType) => {
 
 export const LeftImageArticles = (props: ArticlesPropsType) => {
   return (
-    <div className="hero bg-base-200 my-1 h-96">
+    <div className="hero my-1 h-96">
       <div className="hero-content flex-col lg:flex-row-reverse w-3/5">
         <Image
           src={props.image}

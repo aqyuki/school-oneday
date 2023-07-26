@@ -6,7 +6,7 @@ const OneDayFooter = memo(() => {
     <footer className="footer p-10">
       <div>
         <span className="footer-title">Policy</span>
-        <Link href="/">免責事項</Link>
+        <Link href="/policy">免責事項</Link>
       </div>
       <div>
         <span className="footer-title">制作</span>
@@ -19,4 +19,5 @@ const OneDayFooter = memo(() => {
   );
 });
 
+OneDayFooter.displayName = "OneDayFooter";
 export default OneDayFooter;
