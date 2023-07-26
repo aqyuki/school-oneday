@@ -19,4 +19,5 @@ const OneDayFooter = memo(() => {
   );
 });
 
+OneDayFooter.displayName = "OneDayFooter";
 export default OneDayFooter;
