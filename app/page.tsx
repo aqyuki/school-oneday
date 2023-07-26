@@ -7,14 +7,14 @@ export default function Home() {
         鹿児島高専 e-スポーツクラブ
       </h1>
       <RightImageArticles
-        image="/images/6453.jpg"
+        image="/images/school_fes.jpg"
         title="文化祭"
         alt="文化祭の様子"
       >
         「音ゲー部門」と「格ゲー部門」でそれぞれ体験会を開いています。誰でも自由に参加する事ができます。今年もやりますので、ぜひ遊びに来てください！
       </RightImageArticles>
       <LeftImageArticles
-        image="/images/6451.jpg"
+        image="/images/class_match.jpg"
         title="クラスマッチ"
         alt="クラスマッチの様子"
       >
