@@ -1,7 +1,8 @@
 import Image from "next/image";
+import { memo } from "react";
 import ArticlesPropsType, { ArticlesContentPropsType } from "../types/articles";
 
-export const RightImageArticles = (props: ArticlesPropsType) => {
+export const RightImageArticles = memo((props: ArticlesPropsType) => {
   return (
     <div className="hero my-1 h-96">
       <div className="hero-content flex-col lg:flex-row w-3/5">
@@ -20,9 +21,9 @@ export const RightImageArticles = (props: ArticlesPropsType) => {
       </div>
     </div>
   );
-};
+});
 
-export const LeftImageArticles = (props: ArticlesPropsType) => {
+export const LeftImageArticles = memo((props: ArticlesPropsType) => {
   return (
     <div className="hero my-1 h-96">
       <div className="hero-content flex-col lg:flex-row-reverse w-3/5">
@@ -40,10 +41,12 @@ export const LeftImageArticles = (props: ArticlesPropsType) => {
       </div>
     </div>
   );
-};
+});
 
 const ArticlesContent = ({ children }: ArticlesContentPropsType) => {
   return <p className="py-7 text-2xl">{children}</p>;
 };
 
+RightImageArticles.displayName = "RightImageArticles";
+LeftImageArticles.displayName = "LeftImageArticles";
 export default LeftImageArticles;
