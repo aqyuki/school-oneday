@@ -7,7 +7,7 @@ import ArticlesPropsType, {
 
 export const RightImageArticles = memo((props: ArticlesPropsType) => {
   return (
-    <div className="hero min-h-screen">
+    <div className="hero my-4">
       <div className="hero-content flex-col lg:flex-row w-3/5">
         <Image
           src={props.image}
@@ -21,9 +21,6 @@ export const RightImageArticles = memo((props: ArticlesPropsType) => {
           <h1 className="text-4xl font-bold md:text-start sm:text-center">
             {props.title}
           </h1>
-          <h1 className="text-4xl font-bold md:text-start sm:text-center">
-            {props.title}
-          </h1>
           <ArticlesContent>{props.children}</ArticlesContent>
         </div>
       </div>
@@ -33,7 +30,7 @@ export const RightImageArticles = memo((props: ArticlesPropsType) => {
 
 export const LeftImageArticles = memo((props: ArticlesPropsType) => {
   return (
-    <div className="hero min-h-screen">
+    <div className="hero my-4">
       <div className="hero-content flex-col lg:flex-row-reverse w-3/5">
         <Image
           src={props.image}
@@ -55,7 +52,7 @@ export const LeftImageArticles = memo((props: ArticlesPropsType) => {
 
 export const NonImageArticles = memo((props: NonImageArticlesPropsType) => {
   return (
-    <div className="hero min-h-screen">
+    <div className="hero my-4">
       <div className="hero-content flex-col lg:flex-row-reverse w-3/5">
         <div>
           <h1 className="text-4xl font-bold md:text-start sm:text-center">
@@ -69,7 +66,6 @@ export const NonImageArticles = memo((props: NonImageArticlesPropsType) => {
 });
 
 const ArticlesContent = ({ children }: ArticlesContentPropsType) => {
-  return <p className="py-7 text-2xl md:w-full w-screen">{children}</p>;
   return <p className="py-7 text-2xl md:w-full w-screen">{children}</p>;
 };
 
