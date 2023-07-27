@@ -7,6 +7,11 @@ interface ArticlesPropsType {
   children: ReactNode;
 }
 
+export interface NonImageArticlesPropsType {
+  title: string;
+  children: ReactNode;
+}
+
 export interface ArticlesContentPropsType {
   children: ReactNode;
 }
