@@ -7,7 +7,7 @@ import {
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <h1 className="text-3xl font-bold my-5 flex justify-center">
+      <h1 className="text-5xl font-bold my-5 flex justify-center">
         e-スポーツクラブ
       </h1>
       <RightImageArticles
