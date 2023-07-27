@@ -21,6 +21,9 @@ export const RightImageArticles = memo((props: ArticlesPropsType) => {
           <h1 className="text-4xl font-bold md:text-start sm:text-center">
             {props.title}
           </h1>
+          <h1 className="text-4xl font-bold md:text-start sm:text-center">
+            {props.title}
+          </h1>
           <ArticlesContent>{props.children}</ArticlesContent>
         </div>
       </div>
@@ -66,6 +69,7 @@ export const NonImageArticles = memo((props: NonImageArticlesPropsType) => {
 });
 
 const ArticlesContent = ({ children }: ArticlesContentPropsType) => {
+  return <p className="py-7 text-2xl md:w-full w-screen">{children}</p>;
   return <p className="py-7 text-2xl md:w-full w-screen">{children}</p>;
 };
 
