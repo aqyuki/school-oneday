@@ -33,7 +33,7 @@ const Policy = () => {
           <h2 className="text-3xl">その他</h2>
           <div className="my-3">
             <p className="text-base">
-              このページに関して、お問い合わせ等ありましたら以下のメールアドレスに対して連絡をください。迅速に対応させていただきます。
+              このページに関して、お問い合わせ等ありましたら以下のメールアドレスに対して連絡をください。迅速に対応させていただきます。また、いたずらや嫌がらせ等の行為に対しても適切な対応を取らせていただきます。
             </p>
             <a href="mailto:b21095&#64kagoshima.kosen-ac.jp">
               E-mail : b21095@kagoshima.kosen-ac.jp
